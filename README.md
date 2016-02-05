@@ -5,7 +5,8 @@
 ### apt
 - `jshon`
 - `python3`
-- `node`
+- `node`@0.10.29
+- `golang`@1.3.3
 
 ### pip
 - `awscli`
