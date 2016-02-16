@@ -7,6 +7,8 @@
 - `python3`
 - `node`@0.10.29
 - `golang`@1.3.3
+- `maven2`
+- `ruby`
 
 ### pip
 - `awscli`
