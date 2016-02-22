@@ -12,4 +12,4 @@
 - `awscli`
 
 ### binary
-- `packer`
+- `packer`@v0.9.0
