@@ -9,6 +9,7 @@
 - `golang`@1.3.3
 - `maven2`
 - `ruby`
+- `jq`
 
 ### pip
 - `awscli`
