@@ -15,4 +15,4 @@
 - `awscli`
 
 ### binary
-- `packer`@v0.10.0
+- `packer`@v0.10.1
