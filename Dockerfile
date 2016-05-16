@@ -22,10 +22,10 @@ RUN aws configure set preview.cloudfront true
 
 
 # Packer
-ENV PACKER_SHA256=eadd33bc0f8fa42034059fc1cda5f43ed6f540746e767480f0706ebed49b45e5 \
-    PACKER_VERSION=0.10.0 \
-    PACKER_ZIP=packer_0.10.0_linux_amd64.zip
-ADD https://releases.hashicorp.com/packer/0.10.0/packer_0.10.0_linux_amd64.zip /var/jenkins_home/
+ENV PACKER_SHA256=7d51fc5db19d02bbf32278a8116830fae33a3f9bd4440a58d23ad7c863e92e28 \
+    PACKER_VERSION=0.10.1 \
+    PACKER_ZIP=packer_0.10.1_linux_amd64.zip
+ADD https://releases.hashicorp.com/packer/0.10.1/packer_0.10.1_linux_amd64.zip /var/jenkins_home/
 RUN echo "$PACKER_SHA256 /var/jenkins_home/$PACKER_ZIP" | sha256sum -c -
 RUN unzip /var/jenkins_home/$PACKER_ZIP -d /usr/local/bin
 
